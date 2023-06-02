@@ -62,6 +62,16 @@ export default class TetrominoFactory {
                     [0,  0, 0, 0,],
                     [0, 0, 0, 0,]
                 ]
+            ),
+
+            () => new Tetromino(
+                "#ffffff",
+                [
+                    [0, 0, 1, 0,],
+                    [0, 0, 1, 0,],
+                    [0,  0, 1, 0,],
+                    [0, 0, 1, 0,]
+                ]
             )
         ];
     }
